@@ -16,8 +16,8 @@ class Cql < Formula
       url ""
       sha256 ""
     else
-      url ""
-      sha256 ""
+      url "https://github.com/jharrilim/csvquel/releases/download/v0.1.0/cql-apple-silicon.tar.gz"
+      sha256 "e874c60926fb9796e8786161ccc120372aca63c58376167f91e5827ae17952ef"
     end
 
   end
