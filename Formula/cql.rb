@@ -33,9 +33,9 @@ class Cql < Formula
     if build.head?
       system "cargo", "install", *std_cargo_args
       libexec.install "runtime"
-      libexec.install "target/release/hx"
+      libexec.install "target/release/cql"
     else
-      libexec.install Dir["*"]
+      bin.install "cql"
     end
   end
 
